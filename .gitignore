@@ -1,0 +1,31 @@
+# --- data: never commit (contains confidential Epic data) ---
+data/raw/*
+data/interim/*
+data/processed/*
+data/climate/*
+!data/**/.gitkeep
+*.sql.gz
+*_bkp.sql
+tech_operation.sql
+*.xlsx
+# keep the reference lookup and the export query
+!data/reference/
+!sql/*.sql
+
+# --- references: copyrighted papers, keep local ---
+references/papers/*
+references/datasheets/*
+!references/**/.gitkeep
+
+# --- secrets ---
+.env
+.cdsapirc
+
+# --- python / editors ---
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/settings.json
+.DS_Store

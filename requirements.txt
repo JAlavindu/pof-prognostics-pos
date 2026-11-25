@@ -1,0 +1,24 @@
+# core
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+matplotlib>=3.8
+openpyxl>=3.1          # read Epic's .xlsx files
+pyarrow>=14            # parquet files
+# database
+SQLAlchemy>=2.0
+PyMySQL>=1.1
+# survival analysis / statistics
+lifelines>=0.27
+scikit-learn>=1.3
+# climate (ERA5)
+cdsapi>=0.7
+xarray>=2023.10
+netCDF4>=1.6
+# later stages (install when you reach them)
+# torch>=2.1           # hybrid model, deep ensembles (weeks 8-11)
+# ortools>=9.8         # routing baseline (weeks 16-19)
+# vrplib>=1.4          # CVRPLIB instances
+# development
+jupyter
+pytest
